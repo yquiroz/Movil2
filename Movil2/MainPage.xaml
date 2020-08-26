@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movil2.MainPage">
+
+    <StackLayout HorizontalOptions="">
+        <Entry Placeholder="Email:" x:Name="entryMail" />
+        <Entry Placeholder="Asunto" x:Name="antryAsunto" />
+        <Button Text="Prueba" x:Name="Boton1"
+                Clicked="Boton1_Clicked" />
+        
+        <Entry Placeholder="prueba" />
+        <Editor  />
+        <DatePicker />
+        <SearchBar Placeholder="dos" />
+        <Slider Minimum="0" Maximum="1" />
+        <Stepper Minimum="0" Maximum="10" Increment="1" />
+        <Label Text="prueba 3" ></Label>
+        
+        
+        
+        
+    </StackLayout>
+
+</ContentPage>
